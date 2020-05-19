@@ -1,0 +1,134 @@
+.header {
+    left: 0;
+    background-color: black;
+    height: 100px;
+    border-bottom: 1px solid white;
+    max-width: 100%;
+    position: fixed !important;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.log-res {
+    color: honeydew;
+    position: absolute;
+    padding: 8px;
+    right: 20px;
+    top: 10px;
+}
+
+.logo {
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 70px;
+}
+
+.container {
+    margin-top: 20px;
+    float: left;
+    margin-left: 100px;
+    overflow: hidden;
+    width: 700px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.container input#search {
+    width: 700px;
+    height: 40px;
+    background-color: seashell;
+    border: 1px solid black;
+    font-size: 12pt;
+    float: left;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.container button.btn-find {
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background: #232833;
+    margin-top: 1px;
+    height: 38px;
+    width: 39px;
+    color: #4f5b66;
+    opacity: 0;
+    font-size: 10pt;
+    -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+}
+
+.container:hover button.btn-find,
+.container:active button.btn-find,
+.container:focus button.btn-find {
+    outline: none;
+    opacity: 1;
+    margin-left: -39px;
+}
+
+.container:hover button.btn-find:hover {
+    background: white;
+}
+
+.menu {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    padding-top: 50px;
+    margin-left: 330px;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+    overflow: hidden;
+    color: white;
+}
+
+li {
+    float: left;
+    color: white;
+    display: block;
+    position: relative;
+    line-height: 21px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropmenu li:hover {
+    background-color: gray;
+}
+
+ul li ul.dropmenu {
+    background-color: black;
+    margin-top: 9px;
+    min-width: 100%;
+    display: none;
+    z-index: 1;
+    left: 0;
+}
+
+ul li:hover ul.dropmenu {
+    display: block;
+}
+
+ul li ul.dropmenu li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}

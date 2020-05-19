@@ -1,0 +1,43 @@
+.slideshow {
+    float: left;
+    border-right: 1px solid black;
+}
+
+.show {
+    text-align: center;
+    width: 700px;
+}
+
+.slideStyle {
+    height: 700px;
+}
+
+.slide2 {
+    margin-top: -210px;
+    margin-left: 100px;
+}
+
+.slideshow2 {
+    margin-left: 150px;
+    float: left;
+    border-bottom: 1px solid black;
+}
+
+.show1 {
+    text-align: center;
+    width: 300px;
+}
+
+.slideStyle1 {
+    height: 250px;
+}
+
+.slide3 {
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.slideshow3 {
+    margin-left: 150px;
+    float: left;
+}
